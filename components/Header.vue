@@ -34,13 +34,13 @@ export default {
       items: [
         {
           icon: 'mdi-apps',
-          title: 'Welcome',
-          to: '/',
+          title: 'Home',
+          to: '/book',
         },
         {
           icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire',
+          title: 'Search',
+          to: '/book/search',
         },
       ],
       miniVariant: false,
