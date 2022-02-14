@@ -4,6 +4,16 @@ export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
 
+  router: {
+    extendRoutes(routes, resolve) {
+      routes.push({
+        name: 'index',
+        path: '/',
+        component: resolve(__dirname, 'pages/book/index.vue'),
+      })
+    },
+  },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s - bookapp',

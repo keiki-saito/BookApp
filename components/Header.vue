@@ -35,7 +35,7 @@ export default {
         {
           icon: 'mdi-apps',
           title: 'Home',
-          to: '/book',
+          to: '/',
         },
         {
           icon: 'mdi-chart-bubble',
